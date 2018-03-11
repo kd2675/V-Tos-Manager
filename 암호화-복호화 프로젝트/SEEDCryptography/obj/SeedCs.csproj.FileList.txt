@@ -1,0 +1,5 @@
+bin\Debug\SeedCs.dll
+bin\Debug\SeedCs.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SeedCs.dll
+obj\Debug\SeedCs.pdb

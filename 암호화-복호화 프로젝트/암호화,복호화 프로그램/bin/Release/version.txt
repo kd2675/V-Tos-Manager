@@ -1,0 +1,51 @@
+=== [Korean] ===
+프로그램 버전 정보
+1.0버전: DES, 3DES, AES, MD5, SHA, RSA, ECDSA, 랜덤 코드, 보기메뉴, 도움말과 프로그램 정보 추가
+1.1버전: RC2 모드 추가
+1.2버전: RIPEMD160, ARIA 모드 추가, 메뉴와 창 크기 조정
+1.3버전: SEED 모드 추가
+1.4버전: MD5, RIPEMD160, SHA방식에 HMAC 모드를 추가하고 프로그램 배경화면 설정
+1.5버전: BlowFish 모드 추가, 비밀키 및 IV의 길이제한 경고 함수를 개편
+1.6버전: Tab 누를시 포커스가 이동할 순서 개편, DES 암호화 CBC가 아닌 ECB모드로 설정되었던 점 수정, 버전 정보에 대한 텍스트 파일 추가, 도움말을 클릭했을 때 오류가 뜨던 문제 수정
+1.7버전: 영어, 한글 언어를 지원, "Form, Panel, 경고 클래스, 언어 등을 캡슐화 및 세분화"
+1.8버전: DES, 3DES, AES, RC2방식에 IV 모드를 추가하고 경고창 번역을 추가함
+1.85버전: 편의기능 메뉴 추가, 번역 알고리즘 개편
+1.9버전: 구글 번역기 추가, 나눔글꼴 추가
+2.0버전: 프로그램에 나눔글꼴 내장, 프로그램 이름 변경, UI 및 번역 개편, 프로그램 창 크기를 늘림, 파일 암호화 기능 추가 (ARIA, BlowFish, ECDSA, RSA, SEED 제외)
+2.1버전: 기타 알림창 번역이 안되었던 점 수정, 대칭키 암호화 UI에 진행률 추가, 텍스트창에 스크롤바 추가, 스테가노그래피 기능 추가, 잘못된 파일을 복호화할 시 에러창이 안뜨던 문제 수정
+2.15버전: 100메가 이하의 파일이 암호화되지 않던 문제 수정
+
+업데이트 계획:
+SEED와 ARIA 알고리즘 개편
+CD 키 생성기를 추가할 예정
+RSA와 ECDSA 파일 암호화를 추가할 예정
+
+제작자 : 김청호
+이메일 : mokpo4550@gmail.com
+
+
+=== [English] ===
+Program Version Info
+1.0: Add DES, 3DES, AES, MD5, SHA, RSA, ECDSA, Random Code, view menu, help menu, and program info
+1.1: Add RC2 mode
+1.2: Add RIPEMD160 and ARIA mode. resize menu and windows
+1.3: Add SEED mode
+1.4: Add HMAC Mode to MD5, RIPEMD160, SHA. Set Program Background Screen
+1.5: Add BlowFish Mode. Private key and IV length limit warning function reorganized
+1.6: Change the order in which the focus moves when Tab is pressed. Fixed the point where DES encryption was set to ECB mode instead of CBC,
+     Added text file for version information, Fixed an error when clicking Help
+1.7: Supports English and Korean language. encapsulates and subdivides "Form, Panel, Warning class, Language, etc."
+1.8: Added IV mode to DES, 3DES, AES, RC2 and added warning notice translation
+1.85: Added convenience function menu, Reorganization of translation algorithms
+1.9: Added Google translator, Added NanumGothic fonts in the program
+2.0: Embedded NanumGothic fonts in the program, rename programs, rename UI and translation, increase program window size, added file encryption function (except ARIA, BlowFish, ECDSA, RSA, SEED)
+2.1: Fixed a problem where the other notification window was not translated. added the progress to the symmetric key encryption UI, added the scroll bar to the text window, added the steganography function, and fixed an issue where the error window did not work properly.
+2.15: Fixed an issue where files below 100 megabytes were not encrypted
+
+Plan for updates:
+Revised SEED and ARIA algorithms
+I will add CD Key Generator
+I will add RSA and ECDSA file encryption
+
+Made by KimCheongHo (김청호)
+Email Address : mokpo4550@gmail.com

@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EB14A43E-728F-4A0F-AA50-EDF826FC71CA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>암호화_복호화_프로그램</RootNamespace>
+    <AssemblyName>V-Tos Manager</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Forms\keyring-icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.4.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fonts.cs" />
+    <Compile Include="Form_UserControl\ConvenienceFeaturesList\CDKeyPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\ConvenienceFeaturesList\CDKeyPanel.Designer.cs">
+      <DependentUpon>CDKeyPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\ConvenienceFeaturesList\TranslatorPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\ConvenienceFeaturesList\TranslatorPanel.Designer.cs">
+      <DependentUpon>TranslatorPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\AESPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\AESPanel.Designer.cs">
+      <DependentUpon>AESPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\ARIAPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\ARIAPanel.Designer.cs">
+      <DependentUpon>ARIAPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\BlowFishPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\BlowFishPanel.Designer.cs">
+      <DependentUpon>BlowFishPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\CryptographyMode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\CryptographyMode.Designer.cs">
+      <DependentUpon>CryptographyMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\DESPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\DESPanel.Designer.cs">
+      <DependentUpon>DESPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\ECDSAPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\ECDSAPanel.Designer.cs">
+      <DependentUpon>ECDSAPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\AdviceList\EncryptionAdvice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\AdviceList\EncryptionAdvice.Designer.cs">
+      <DependentUpon>EncryptionAdvice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\MD5Panel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\MD5Panel.Designer.cs">
+      <DependentUpon>MD5Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\ConvenienceFeaturesList\ConvenienceFeaturesMode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\ConvenienceFeaturesList\ConvenienceFeaturesMode.Designer.cs">
+      <DependentUpon>ConvenienceFeaturesMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\AdviceList\ConvenientOptionAdvice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\AdviceList\ConvenientOptionAdvice.Designer.cs">
+      <DependentUpon>ConvenientOptionAdvice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\ConvenienceFeaturesList\RandomPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\ConvenienceFeaturesList\RandomPanel.Designer.cs">
+      <DependentUpon>RandomPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\RC2Panel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\RC2Panel.Designer.cs">
+      <DependentUpon>RC2Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\RIPEMD160Panel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\RIPEMD160Panel.Designer.cs">
+      <DependentUpon>RIPEMD160Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\RSAPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\RSAPanel.Designer.cs">
+      <DependentUpon>RSAPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\SEEDPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\SEEDPanel.Designer.cs">
+      <DependentUpon>SEEDPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\SHAPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\SHAPanel.Designer.cs">
+      <DependentUpon>SHAPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\SteganographyPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\SteganographyPanel.Designer.cs">
+      <DependentUpon>SteganographyPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\TripleDESPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl\CryptographyList\TripleDESPanel.Designer.cs">
+      <DependentUpon>TripleDESPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Language\Language.en-US.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Language.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\Language.ko-KR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Language.ko-KR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Language\LanguageNumber.cs" />
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdviceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdviceForm.Designer.cs">
+      <DependentUpon>AdviceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Language\SetupLanguage.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Forms\ProgramInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProgramInfoForm.Designer.cs">
+      <DependentUpon>ProgramInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WarningNotice.cs" />
+    <EmbeddedResource Include="Forms\AdviceForm.resx">
+      <DependentUpon>AdviceForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProgramInfoForm.resx">
+      <DependentUpon>ProgramInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\ConvenienceFeaturesList\CDKeyPanel.resx">
+      <DependentUpon>CDKeyPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\ConvenienceFeaturesList\ConvenienceFeaturesMode.resx">
+      <DependentUpon>ConvenienceFeaturesMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\ConvenienceFeaturesList\TranslatorPanel.resx">
+      <DependentUpon>TranslatorPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\CryptographyList\AESPanel.resx">
+      <DependentUpon>AESPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\CryptographyList\ARIAPanel.resx">
+      <DependentUpon>ARIAPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\CryptographyList\BlowFishPanel.resx">
+      <DependentUpon>BlowFishPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\CryptographyList\CryptographyMode.resx">
+      <DependentUpon>CryptographyMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\CryptographyList\DESPanel.resx">
+      <DependentUpon>DESPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\CryptographyList\ECDSAPanel.resx">
+      <DependentUpon>ECDSAPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\AdviceList\EncryptionAdvice.resx">
+      <DependentUpon>EncryptionAdvice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\CryptographyList\MD5Panel.resx">
+      <DependentUpon>MD5Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\AdviceList\ConvenientOptionAdvice.resx">
+      <DependentUpon>ConvenientOptionAdvice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\ConvenienceFeaturesList\RandomPanel.resx">
+      <DependentUpon>RandomPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\CryptographyList\RC2Panel.resx">
+      <DependentUpon>RC2Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\CryptographyList\RIPEMD160Panel.resx">
+      <DependentUpon>RIPEMD160Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\CryptographyList\RSAPanel.resx">
+      <DependentUpon>RSAPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\CryptographyList\SEEDPanel.resx">
+      <DependentUpon>SEEDPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\CryptographyList\SHAPanel.resx">
+      <DependentUpon>SHAPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\CryptographyList\SteganographyPanel.resx">
+      <DependentUpon>SteganographyPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl\CryptographyList\TripleDESPanel.resx">
+      <DependentUpon>TripleDESPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\Language.en-US.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Language.en-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\Language.ko-KR.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Language.ko-KR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gift-of-minimalism.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NanumGothic_Bold.ttf" />
+    <None Include="Resources\NanumGothic_ExtraBold.ttf" />
+    <None Include="Resources\NanumGothic_Regular.ttf" />
+    <None Include="Resources\연두색 배경.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AESCryptography\AESCryptography.csproj">
+      <Project>{d89d3307-31f2-4a95-8c06-1037165d5c77}</Project>
+      <Name>AESCryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ARIACryptography\ARIACryptography.csproj">
+      <Project>{41339bef-ae8b-48eb-b021-f41a93a49731}</Project>
+      <Name>ARIACryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlowFishCryptography\BlowFishCryptography.csproj">
+      <Project>{68ba3338-933e-4da7-aa34-90029c555d55}</Project>
+      <Name>BlowFishCryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DESCryptography\DESCryptography.csproj">
+      <Project>{e58f7696-c4bd-4b16-ae3b-ac1beffeda2c}</Project>
+      <Name>DESCryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ECDSACryptography\ECDSACryptography.csproj">
+      <Project>{896c517a-0eca-4f9c-b243-f3a26a1f53e8}</Project>
+      <Name>ECDSACryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GoogleTranslator\GoogleTranslator.csproj">
+      <Project>{0ea43454-c8cd-48df-81ec-bcb261c057e3}</Project>
+      <Name>GoogleTranslator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MD5Cryptography\MD5Cryptography.csproj">
+      <Project>{bc5b3be3-6ba5-4ace-8b54-973ede3c36b4}</Project>
+      <Name>MD5Cryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RandomCodeGenerator\RandomCodeGenerator.csproj">
+      <Project>{a250287d-60cf-4d43-83f5-2cf82d97fd14}</Project>
+      <Name>RandomCodeGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RC2Cryptography\RC2Cryptography.csproj">
+      <Project>{e5427e83-d3fa-496d-a76f-14cef6bce4c9}</Project>
+      <Name>RC2Cryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RIPEMD160Cryptography\RIPEMD160Cryptography.csproj">
+      <Project>{4c077ac8-c42d-4dec-9e13-4ef0972bd622}</Project>
+      <Name>RIPEMD160Cryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RSACryptography\RSACryptography.csproj">
+      <Project>{fddab11d-4519-4c75-9424-19aca3c9c74f}</Project>
+      <Name>RSACryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SeedCryptography\SEEDCryptography.csproj">
+      <Project>{35d30189-b5af-4c7b-8b00-87d541e814b2}</Project>
+      <Name>SEEDCryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SHACryptography\SHACryptography.csproj">
+      <Project>{eb70e480-6c5e-4166-8724-a8bab2c2d5f2}</Project>
+      <Name>SHACryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Steganography\Steganography.csproj">
+      <Project>{e17df32a-eae9-4f83-9deb-a5e3846be887}</Project>
+      <Name>Steganography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TripleDESCryptography\TripleDESCryptography.csproj">
+      <Project>{54a1b695-6b0c-402c-87f0-08ed9d039f10}</Project>
+      <Name>TripleDESCryptography</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Forms\keyring-icon.ico" />
+    <Content Include="Resources\keyring-icon.ico" />
+    <None Include="Forms\Question_Mark-Icon.ico" />
+    <None Include="Resources\암호화,복호화.png" />
+    <None Include="Resources\question.png" />
+    <None Include="Resources\ok.png" />
+    <None Include="Resources\error.png" />
+    <None Include="Resources\Arrow_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>move "$(TargetDir)\*.dll" "$(TargetDir)\DLL"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

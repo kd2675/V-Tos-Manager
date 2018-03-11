@@ -1,0 +1,12 @@
+C:\Users\test\Desktop\AriaCipher\bin\Debug\AriaCipher.dll
+C:\Users\test\Desktop\AriaCipher\bin\Debug\AriaCipher.pdb
+C:\Users\test\Desktop\AriaCipher\obj\Debug\AriaCipher.csprojResolveAssemblyReference.cache
+C:\Users\test\Desktop\AriaCipher\obj\Debug\AriaCipher.csproj.CoreCompileInputs.cache
+C:\Users\test\Desktop\AriaCipher\obj\Debug\AriaCipher.dll
+C:\Users\test\Desktop\AriaCipher\obj\Debug\AriaCipher.pdb
+C:\Users\test\source\repos\연습용\AriaCipher\bin\Debug\AriaCipher.dll
+C:\Users\test\source\repos\연습용\AriaCipher\bin\Debug\AriaCipher.pdb
+C:\Users\test\source\repos\연습용\AriaCipher\obj\Debug\AriaCipher.csprojResolveAssemblyReference.cache
+C:\Users\test\source\repos\연습용\AriaCipher\obj\Debug\AriaCipher.csproj.CoreCompileInputs.cache
+C:\Users\test\source\repos\연습용\AriaCipher\obj\Debug\AriaCipher.dll
+C:\Users\test\source\repos\연습용\AriaCipher\obj\Debug\AriaCipher.pdb

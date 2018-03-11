@@ -1,0 +1,12 @@
+C:\Users\test\source\repos\암호화-복호화 프로젝트\AESCryptography\bin\Debug\AESCryptography.dll
+C:\Users\test\source\repos\암호화-복호화 프로젝트\AESCryptography\bin\Debug\AESCryptography.pdb
+C:\Users\test\source\repos\암호화-복호화 프로젝트\AESCryptography\obj\Debug\AESCryptography.csproj.CoreCompileInputs.cache
+C:\Users\test\source\repos\암호화-복호화 프로젝트\AESCryptography\obj\Debug\AESCryptography.dll
+C:\Users\test\source\repos\암호화-복호화 프로젝트\AESCryptography\obj\Debug\AESCryptography.pdb
+C:\Users\test\source\repos\암호화-복호화 프로젝트\AESCryptography\obj\Debug\AESCryptography.csprojResolveAssemblyReference.cache
+E:\내 파일\프로그래밍\..프로젝트\.C# 프로젝트\암호화, 복호화 프로젝트 (완성)\암호화-복호화 프로젝트\AESCryptography\bin\Debug\AESCryptography.dll
+E:\내 파일\프로그래밍\..프로젝트\.C# 프로젝트\암호화, 복호화 프로젝트 (완성)\암호화-복호화 프로젝트\AESCryptography\bin\Debug\AESCryptography.pdb
+E:\내 파일\프로그래밍\..프로젝트\.C# 프로젝트\암호화, 복호화 프로젝트 (완성)\암호화-복호화 프로젝트\AESCryptography\obj\Debug\AESCryptography.csprojResolveAssemblyReference.cache
+E:\내 파일\프로그래밍\..프로젝트\.C# 프로젝트\암호화, 복호화 프로젝트 (완성)\암호화-복호화 프로젝트\AESCryptography\obj\Debug\AESCryptography.csproj.CoreCompileInputs.cache
+E:\내 파일\프로그래밍\..프로젝트\.C# 프로젝트\암호화, 복호화 프로젝트 (완성)\암호화-복호화 프로젝트\AESCryptography\obj\Debug\AESCryptography.dll
+E:\내 파일\프로그래밍\..프로젝트\.C# 프로젝트\암호화, 복호화 프로젝트 (완성)\암호화-복호화 프로젝트\AESCryptography\obj\Debug\AESCryptography.pdb

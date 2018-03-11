@@ -1,0 +1,5 @@
+Z:\project\NetTraining\AriaCipher\bin\Release\AriaCipher.dll
+Z:\project\NetTraining\AriaCipher\bin\Release\AriaCipher.pdb
+Z:\project\NetTraining\AriaCipher\obj\Release\ResolveAssemblyReference.cache
+Z:\project\NetTraining\AriaCipher\obj\Release\AriaCipher.dll
+Z:\project\NetTraining\AriaCipher\obj\Release\AriaCipher.pdb

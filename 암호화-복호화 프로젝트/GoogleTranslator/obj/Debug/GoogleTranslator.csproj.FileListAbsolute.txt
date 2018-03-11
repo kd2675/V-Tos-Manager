@@ -1,0 +1,12 @@
+C:\Users\test\source\repos\암호화-복호화 프로젝트\GoogleTranslator\bin\Debug\GoogleTranslator.dll
+C:\Users\test\source\repos\암호화-복호화 프로젝트\GoogleTranslator\bin\Debug\GoogleTranslator.pdb
+C:\Users\test\source\repos\암호화-복호화 프로젝트\GoogleTranslator\obj\Debug\GoogleTranslator.csprojResolveAssemblyReference.cache
+C:\Users\test\source\repos\암호화-복호화 프로젝트\GoogleTranslator\obj\Debug\GoogleTranslator.csproj.CoreCompileInputs.cache
+C:\Users\test\source\repos\암호화-복호화 프로젝트\GoogleTranslator\obj\Debug\GoogleTranslator.dll
+C:\Users\test\source\repos\암호화-복호화 프로젝트\GoogleTranslator\obj\Debug\GoogleTranslator.pdb
+E:\내 파일\프로그래밍\..프로젝트\.C# 프로젝트\암호화, 복호화 프로젝트 (완성)\암호화-복호화 프로젝트\GoogleTranslator\bin\Debug\GoogleTranslator.dll
+E:\내 파일\프로그래밍\..프로젝트\.C# 프로젝트\암호화, 복호화 프로젝트 (완성)\암호화-복호화 프로젝트\GoogleTranslator\bin\Debug\GoogleTranslator.pdb
+E:\내 파일\프로그래밍\..프로젝트\.C# 프로젝트\암호화, 복호화 프로젝트 (완성)\암호화-복호화 프로젝트\GoogleTranslator\obj\Debug\GoogleTranslator.csprojResolveAssemblyReference.cache
+E:\내 파일\프로그래밍\..프로젝트\.C# 프로젝트\암호화, 복호화 프로젝트 (완성)\암호화-복호화 프로젝트\GoogleTranslator\obj\Debug\GoogleTranslator.csproj.CoreCompileInputs.cache
+E:\내 파일\프로그래밍\..프로젝트\.C# 프로젝트\암호화, 복호화 프로젝트 (완성)\암호화-복호화 프로젝트\GoogleTranslator\obj\Debug\GoogleTranslator.dll
+E:\내 파일\프로그래밍\..프로젝트\.C# 프로젝트\암호화, 복호화 프로젝트 (완성)\암호화-복호화 프로젝트\GoogleTranslator\obj\Debug\GoogleTranslator.pdb

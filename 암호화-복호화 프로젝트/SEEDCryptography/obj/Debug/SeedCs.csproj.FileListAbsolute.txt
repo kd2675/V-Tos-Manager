@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\SeedCs\SeedCs\bin\Debug\SeedCs.dll
+C:\Users\Administrator\Desktop\SeedCs\SeedCs\bin\Debug\SeedCs.pdb
+C:\Users\Administrator\Desktop\SeedCs\SeedCs\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SeedCs\SeedCs\obj\Debug\SeedCs.dll
+C:\Users\Administrator\Desktop\SeedCs\SeedCs\obj\Debug\SeedCs.pdb
+C:\Users\test\Desktop\SeedCs (1)\SeedCs\bin\Debug\SeedCs.dll
+C:\Users\test\Desktop\SeedCs (1)\SeedCs\bin\Debug\SeedCs.pdb
+C:\Users\test\Desktop\SeedCs (1)\SeedCs\obj\Debug\SeedCs.csproj.CoreCompileInputs.cache
+C:\Users\test\Desktop\SeedCs (1)\SeedCs\obj\Debug\SeedCs.dll
+C:\Users\test\Desktop\SeedCs (1)\SeedCs\obj\Debug\SeedCs.pdb
+C:\Users\test\source\repos\연습용\SeedCs (1)\SeedCs\bin\Debug\SeedCs.dll
+C:\Users\test\source\repos\연습용\SeedCs (1)\SeedCs\bin\Debug\SeedCs.pdb
+C:\Users\test\source\repos\연습용\SeedCs (1)\SeedCs\obj\Debug\SeedCs.csproj.CoreCompileInputs.cache
+C:\Users\test\source\repos\연습용\SeedCs (1)\SeedCs\obj\Debug\SeedCs.dll
+C:\Users\test\source\repos\연습용\SeedCs (1)\SeedCs\obj\Debug\SeedCs.pdb
+C:\Users\test\source\repos\연습용\SeedCs (1)\SeedCs\obj\Debug\SeedCs.csprojResolveAssemblyReference.cache

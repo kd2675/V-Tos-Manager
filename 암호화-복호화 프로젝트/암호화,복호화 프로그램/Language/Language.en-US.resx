@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Advice_AESInfo" xml:space="preserve">
+    <value>AES is a popular advanced encryption standard, and is a replacement for DES. Another name is called Rijndael algorithm, which is 128 bit, 192 bit, 256 bit type. The secret key uses 16s, 24s, 32s according to kind</value>
+  </data>
+  <data name="Advice_AESType" xml:space="preserve">
+    <value>AES method :</value>
+  </data>
+  <data name="Advice_ARIAInfo" xml:space="preserve">
+    <value>The ARIA algorithm is a national encryption algorithm developed by the cryptographic experts such as academia and National Intelligence Service, led by National Security Technology Institute (NSRI), because it needs an encryption algorithm suitable for various environments by implementing e-government. The secret key uses 128/192/256 bits</value>
+  </data>
+  <data name="Advice_ARIAType" xml:space="preserve">
+    <value>ARIA method :</value>
+  </data>
+  <data name="Advice_Asymmetric_Info" xml:space="preserve">
+    <value>Asymmetric cryptography</value>
+  </data>
+  <data name="Advice_BlowFishInfo" xml:space="preserve">
+    <value>BlowFish is an encryption algorithm used in place of the Data Encryption Standard (DES) and the International Data Encryption Algorithm (IDEA). The secret key uses between 32 and 448 bits and uses between 4 and 56 characters. In this example, 1 to 56 characters are used.</value>
+  </data>
+  <data name="Advice_BlowFishType" xml:space="preserve">
+    <value>BlowFish method :</value>
+  </data>
+  <data name="Advice_ConvenientOptionType" xml:space="preserve">
+    <value>Random code</value>
+  </data>
+  <data name="Advice_DESInfo" xml:space="preserve">
+    <value>DES is an algorithm that has been used for a long time as a standard, and that uses a 56-bit key to produce a 64-bit cipher. The secret key uses 8 characters</value>
+  </data>
+  <data name="Advice_DESType" xml:space="preserve">
+    <value>DES method :</value>
+  </data>
+  <data name="Advice_ECDSAInfo" xml:space="preserve">
+    <value>An Electronic Signature Algorithm Using Elliptic Curve Cryptography (ECC) for Digital Signature Algorithm. With a cryptosystem with a key of 160 bits, the processing speed can be made fast with the safety equivalent to the RSA method. Here, the contents are encrypted with the private key, and only the public key is shown to the user. (The public key is used to verify the data)</value>
+  </data>
+  <data name="Advice_ECDSAType" xml:space="preserve">
+    <value>ECDSA method :</value>
+  </data>
+  <data name="Advice_EncryptionType" xml:space="preserve">
+    <value>Cryptography</value>
+  </data>
+  <data name="Advice_HMACInfo" xml:space="preserve">
+    <value>HMAC is a hash-based message authentication code that uses a repetitive cryptographic hash function such as MD5, SHA-1, etc. with a secret public key, making it impossible to change the checksum</value>
+  </data>
+  <data name="Advice_HMACType" xml:space="preserve">
+    <value>HMAC mode :</value>
+  </data>
+  <data name="Advice_MD5Info" xml:space="preserve">
+    <value>It takes an arbitrary length value and outputs a 128-bit hash value. SHA is mainly used nowadays because of the safety issue because it was once drilled</value>
+  </data>
+  <data name="Advice_MD5Type" xml:space="preserve">
+    <value>MD5 method :</value>
+  </data>
+  <data name="Advice_OneWay_Info" xml:space="preserve">
+    <value>One-way cryptography</value>
+  </data>
+  <data name="Advice_ProgramName" xml:space="preserve">
+    <value>Advice</value>
+  </data>
+  <data name="Advice_RandomCodeInfo" xml:space="preserve">
+    <value>Ability to generate random string satisfying condition
+How to use :
+1. Enter the total length of the string to be created.
+2. Type the characters you want to include in the string.
+3. Create a random string that satisfies the condition with "Get random code".</value>
+  </data>
+  <data name="Advice_RandomCodeType" xml:space="preserve">
+    <value>Random Code :</value>
+  </data>
+  <data name="Advice_RandomNumberInfo" xml:space="preserve">
+    <value>The ability to generate a random number between the minimum and maximum values
+How to use :
+1. Enter the minimum value.
+2. Enter the maximum value.
+3. Create a number between the minimum and maximum values with "Get Random Random Number".</value>
+  </data>
+  <data name="Advice_RandomNumberType" xml:space="preserve">
+    <value>Random Number :</value>
+  </data>
+  <data name="Advice_RC2Info" xml:space="preserve">
+    <value>RC2 is an algorithm that replaces DES, three times faster than DES, and supports differential and linear attacks. The secret key uses 8 characters</value>
+  </data>
+  <data name="Advice_RC2Type" xml:space="preserve">
+    <value>RC2 method :</value>
+  </data>
+  <data name="Advice_RIPEMD160Info" xml:space="preserve">
+    <value>It takes an arbitrary length value and outputs a 128-bit / 160-bit length hash value. Only 160 bits are supported here</value>
+  </data>
+  <data name="Advice_RIPEMD160Type" xml:space="preserve">
+    <value>RIPEMD160 method :</value>
+  </data>
+  <data name="Advice_RSAInfo" xml:space="preserve">
+    <value>RSA is a public key encryption algorithm, which is a pair of a public key and a private key. You need a public key to encrypt the document, and a private key to decrypt the encrypted content. It is also possible to reverse the key. The disadvantage is that it is 100-1000 times slower than DES because it uses factoring</value>
+  </data>
+  <data name="Advice_RSAType" xml:space="preserve">
+    <value>RSA method :</value>
+  </data>
+  <data name="Advice_SEEDInfo" xml:space="preserve">
+    <value>The SEED algorithm is a Korean standard symmetric key encryption algorithm developed by KISA to protect important information such as personal information transmitted in electronic commerce, finance, and wireless communication. S / W implementation is faster than Triple DES. The secret key uses 128 bits and uses 16 characters</value>
+  </data>
+  <data name="Advice_SEEDType" xml:space="preserve">
+    <value>SEED method :</value>
+  </data>
+  <data name="Advice_SHA1Info" xml:space="preserve">
+    <value>SHA is the most commonly used algorithm, which, like MD5, has been drilled once and is now used as an alternative to SHA-2</value>
+  </data>
+  <data name="Advice_SHA1Type" xml:space="preserve">
+    <value>SHA-1 method :</value>
+  </data>
+  <data name="Advice_SHA2Info" xml:space="preserve">
+    <value>SHA-2 is a replacement algorithm for SHA-1. There are four types of SHA-224, SHA-256, SHA-384, and SHA-512</value>
+  </data>
+  <data name="Advice_SHA2Type" xml:space="preserve">
+    <value>SHA-2 method :</value>
+  </data>
+  <data name="Advice_Symmetric_Info" xml:space="preserve">
+    <value>Symmetric cryptography</value>
+  </data>
+  <data name="Advice_TripleDESInfo" xml:space="preserve">
+    <value>Triple DES is an algorithm that triples the key length by applying triple DES. The secret key uses 16s, which uses an algorithm that makes the secret key entered using the MD5 method unconditionally 16 characters (128 bits): Sequence: first 8s -&gt; second 8s -&gt; first 8s Encrypted in order</value>
+  </data>
+  <data name="Advice_TripleDESType" xml:space="preserve">
+    <value>Triple DES method :</value>
+  </data>
+  <data name="Decryption" xml:space="preserve">
+    <value>Decryption</value>
+  </data>
+  <data name="Encryption" xml:space="preserve">
+    <value>Encryption</value>
+  </data>
+  <data name="Input_Convert" xml:space="preserve">
+    <value>Enter text to convert</value>
+  </data>
+  <data name="InputIV_16" xml:space="preserve">
+    <value>IV (16)</value>
+  </data>
+  <data name="InputKey_16_24_32" xml:space="preserve">
+    <value>Input Key (16,24,32)</value>
+  </data>
+  <data name="ModeName_AES" xml:space="preserve">
+    <value>AES Mode</value>
+  </data>
+  <data name="Result_Text" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="ModeName_ARIA" xml:space="preserve">
+    <value>ARIA Mode</value>
+  </data>
+  <data name="InputKey_1_56" xml:space="preserve">
+    <value>Input Key (1-56)</value>
+  </data>
+  <data name="ModeName_BlowFish" xml:space="preserve">
+    <value>BlowFish Mode</value>
+  </data>
+  <data name="ModeName_CDKey" xml:space="preserve">
+    <value>CD-Key Generator</value>
+  </data>
+  <data name="InputIV_8" xml:space="preserve">
+    <value>IV (8)</value>
+  </data>
+  <data name="InputKey_8" xml:space="preserve">
+    <value>Input Key (8)</value>
+  </data>
+  <data name="ModeName_DES" xml:space="preserve">
+    <value>DES Mode</value>
+  </data>
+  <data name="Input_Signature" xml:space="preserve">
+    <value>Enter text to signature</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Input Key : </value>
+  </data>
+  <data name="ModeName_ECDSA" xml:space="preserve">
+    <value>ECDSA Mode</value>
+  </data>
+  <data name="DataBeforeSigning" xml:space="preserve">
+    <value>Data before signing</value>
+  </data>
+  <data name="PublicKey" xml:space="preserve">
+    <value>Public Key</value>
+  </data>
+  <data name="Signature" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="SignedData" xml:space="preserve">
+    <value>Signed data</value>
+  </data>
+  <data name="DataVerification" xml:space="preserve">
+    <value>Verification to data</value>
+  </data>
+  <data name="HMACMode" xml:space="preserve">
+    <value>HMAC Mode</value>
+  </data>
+  <data name="HMACModeSetup" xml:space="preserve">
+    <value>HMAC Mode Setup</value>
+  </data>
+  <data name="InputKey" xml:space="preserve">
+    <value>Input Key</value>
+  </data>
+  <data name="ModeName_MD5" xml:space="preserve">
+    <value>MD5 Mode</value>
+  </data>
+  <data name="MenuBar_AESEncryption" xml:space="preserve">
+    <value>AES Encryption</value>
+  </data>
+  <data name="MenuBar_ARIAEncryption" xml:space="preserve">
+    <value>ARIA Encryption</value>
+  </data>
+  <data name="MenuBar_BlowFishEncryption" xml:space="preserve">
+    <value>BlowFish Encryption</value>
+  </data>
+  <data name="MenuBar_CDKeyMode" xml:space="preserve">
+    <value>CD-Key Generator</value>
+  </data>
+  <data name="MenuBar_DESEncryption" xml:space="preserve">
+    <value>DES Encryption</value>
+  </data>
+  <data name="MenuBar_ECDSAEncryption" xml:space="preserve">
+    <value>ECDSA Encryption</value>
+  </data>
+  <data name="MenuBar_EncryptionList" xml:space="preserve">
+    <value>Encryption</value>
+  </data>
+  <data name="MenuBar_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="MenuBar_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="MenuBar_MD5Encryption" xml:space="preserve">
+    <value>MD5 Encryption</value>
+  </data>
+  <data name="MenuBar_ProgramInfo" xml:space="preserve">
+    <value>Program Info</value>
+  </data>
+  <data name="MenuBar_RandomCodeMode" xml:space="preserve">
+    <value>Random Code</value>
+  </data>
+  <data name="MenuBar_RC2Encryption" xml:space="preserve">
+    <value>RC2 Encryption</value>
+  </data>
+  <data name="MenuBar_RIPEMD160Encryption" xml:space="preserve">
+    <value>RIPEMD160 Encryption</value>
+  </data>
+  <data name="MenuBar_RSAEncryption" xml:space="preserve">
+    <value>RSA Encryption</value>
+  </data>
+  <data name="MenuBar_SEEDEncryption" xml:space="preserve">
+    <value>SEED Encryption</value>
+  </data>
+  <data name="MenuBar_SHAEncryption" xml:space="preserve">
+    <value>SHA Encryption</value>
+  </data>
+  <data name="MenuBar_TripleDESEncryption" xml:space="preserve">
+    <value>TripleDES Encryption</value>
+  </data>
+  <data name="MenuBar_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="MenuBar_ViewHelp" xml:space="preserve">
+    <value>View Help</value>
+  </data>
+  <data name="ProgramInfo_ProgramInfo" xml:space="preserve">
+    <value>Program Name: VTOF Manager
+(Various-types of function manager)
+Version: 2.15
+Made by KimCheongHo(김청호)
+Email Address: mokpo4550@gmail.com
+Created Time: Dec 27th 2017, 6:47 PM
+Last updated date: Mar 11th 2018, 07:05 PM</value>
+  </data>
+  <data name="ProgramInfo_ProgramName" xml:space="preserve">
+    <value>Program Info</value>
+  </data>
+  <data name="ProgramInfo_ProgramVersionInfo" xml:space="preserve">
+    <value>Program Version Info
+1.0: Add DES, 3DES, AES, MD5, SHA, RSA, ECDSA, Random Code, view menu, help menu, and program info
+1.1: Add RC2 mode
+1.2: Add RIPEMD160 and ARIA mode. resize menu and windows
+1.3: Add SEED mode
+1.4: Add HMAC Mode to MD5, RIPEMD160, SHA. Set Program Background Screen
+1.5: Add BlowFish Mode. Private key and IV length limit warning function reorganized
+1.6: Change the order in which the focus moves when Tab is pressed. Fixed the point where DES encryption was set to ECB mode instead of CBC,
+     Added text file for version information, Fixed an error when clicking Help
+1.7: Supports English and Korean language. encapsulates and subdivides "Form, Panel, Warning class, Language, etc."
+1.8: Added IV mode to DES, 3DES, AES, RC2 and added warning notice translation
+1.85: Added convenience function menu, Reorganization of translation algorithms
+1.9: Added Google translator, Added NanumGothic fonts in the program
+2.0: Embedded NanumGothic fonts in the program, rename programs, rename UI and translation, increase program window size, added file encryption function (except ARIA, BlowFish, ECDSA, RSA, SEED)
+2.1: Fixed a problem where the other notification window was not translated. added the progress to the symmetric key encryption UI, added the scroll bar to the text window, added the steganography function, and fixed an issue where the error window did not work properly.
+2.15: Fixed an issue where files below 100 megabytes were not encrypted
+
+Plan for updates:
+Revised SEED and ARIA algorithms
+I will add CD Key Generator
+I will add RSA and ECDSA file encryption
+
+Made by KimCheongHo (김청호)
+Email Address : mokpo4550@gmail.com</value>
+  </data>
+  <data name="Program_ProgramName" xml:space="preserve">
+    <value>VTOF Manager 2.15</value>
+  </data>
+  <data name="Random_CharToInclude" xml:space="preserve">
+    <value>Characters to include : </value>
+  </data>
+  <data name="Random_DefaultChar" xml:space="preserve">
+    <value>String to include by Default</value>
+  </data>
+  <data name="Random_GetRandomCode" xml:space="preserve">
+    <value>Get Random Code</value>
+  </data>
+  <data name="Random_GetRandomNumber" xml:space="preserve">
+    <value>Get Random Number</value>
+  </data>
+  <data name="Random_MaximumValue" xml:space="preserve">
+    <value>Maximum Value : </value>
+  </data>
+  <data name="Random_MinimumValue" xml:space="preserve">
+    <value>Minimum Value : </value>
+  </data>
+  <data name="ModeName_Random" xml:space="preserve">
+    <value>Random Code</value>
+  </data>
+  <data name="Random_RandomCodeResult" xml:space="preserve">
+    <value>Random Code Result</value>
+  </data>
+  <data name="Random_RandomNumberResult" xml:space="preserve">
+    <value>RandomNumber Result</value>
+  </data>
+  <data name="Random_TotalLength" xml:space="preserve">
+    <value>Total Length : </value>
+  </data>
+  <data name="ModeName_RC2" xml:space="preserve">
+    <value>RC2 Mode</value>
+  </data>
+  <data name="ModeName_RIPEMD160" xml:space="preserve">
+    <value>RIPEMD160 Mode</value>
+  </data>
+  <data name="Decryption_NeedPrivateKey" xml:space="preserve">
+    <value>Decryption
+[Private key]</value>
+  </data>
+  <data name="Encryption_NeedPublicKey" xml:space="preserve">
+    <value>Encryption
+[Public key]</value>
+  </data>
+  <data name="MakeKey" xml:space="preserve">
+    <value>Make Key</value>
+  </data>
+  <data name="ModeName_RSA" xml:space="preserve">
+    <value>RSA Mode</value>
+  </data>
+  <data name="PrivateKey" xml:space="preserve">
+    <value>Private Key</value>
+  </data>
+  <data name="InputKey_16" xml:space="preserve">
+    <value>Input Key (16)</value>
+  </data>
+  <data name="ModeName_SEED" xml:space="preserve">
+    <value>SEED Mode</value>
+  </data>
+  <data name="ModeName_SHA" xml:space="preserve">
+    <value>SHA Mode</value>
+  </data>
+  <data name="SHA1Setup" xml:space="preserve">
+    <value>SHA-1</value>
+  </data>
+  <data name="SHA256Setup" xml:space="preserve">
+    <value>SHA-256</value>
+  </data>
+  <data name="SHA384Setup" xml:space="preserve">
+    <value>SHA-384</value>
+  </data>
+  <data name="SHA512Setup" xml:space="preserve">
+    <value>SHA-512</value>
+  </data>
+  <data name="SHAMode" xml:space="preserve">
+    <value>SHA Mode</value>
+  </data>
+  <data name="ModeName_TripleDES" xml:space="preserve">
+    <value>Triple DES Mode</value>
+  </data>
+  <data name="MenuBar_OtherOptionList" xml:space="preserve">
+    <value>Other Option</value>
+  </data>
+  <data name="ModeName_Translator" xml:space="preserve">
+    <value>Translator</value>
+  </data>
+  <data name="MenuBar_TranslatorMode" xml:space="preserve">
+    <value>Translator</value>
+  </data>
+  <data name="Translator_FromLanguage" xml:space="preserve">
+    <value>Source Language : </value>
+  </data>
+  <data name="Translator_FromText" xml:space="preserve">
+    <value>Enter text to translate</value>
+  </data>
+  <data name="Translator_Reverse" xml:space="preserve">
+    <value>Reverse</value>
+  </data>
+  <data name="Translator_Speak" xml:space="preserve">
+    <value>Speak</value>
+  </data>
+  <data name="Translator_Status1" xml:space="preserve">
+    <value>Status : </value>
+  </data>
+  <data name="Translator_Status2" xml:space="preserve">
+    <value>Status : Translating...</value>
+  </data>
+  <data name="Translator_Status3" xml:space="preserve">
+    <value>Status : Translation completed</value>
+  </data>
+  <data name="Translator_Status4" xml:space="preserve">
+    <value>Status : Error occurred</value>
+  </data>
+  <data name="Translator_ToLanguage" xml:space="preserve">
+    <value>Target Language : </value>
+  </data>
+  <data name="Translator_ToText" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="Translator_Translate" xml:space="preserve">
+    <value>Translate</value>
+  </data>
+  <data name="Translator_UsedLanguage1" xml:space="preserve">
+    <value>Recently used source language</value>
+  </data>
+  <data name="Translator_UsedLanguage2" xml:space="preserve">
+    <value>Recently used target language</value>
+  </data>
+  <data name="Advice_CDKeyInfo" xml:space="preserve">
+    <value>Will be added later</value>
+  </data>
+  <data name="Advice_CDKeyType" xml:space="preserve">
+    <value>CD Key Generator :</value>
+  </data>
+  <data name="Advice_TranslatorInfo" xml:space="preserve">
+    <value>Google Translate is a free multilingual machine translation service developed by Google, to translate text from one language into another.
+How to use :
+1. Select the language of the original text
+2. Select the language to translate
+3. Enter text to translate
+4. Translate the language with the "Translate" button
+5. The "Replace" button changes the original language and the original language to be translated.
+6. "Listen to voice" tells the translated text by voice.</value>
+  </data>
+  <data name="Advice_TranslatorType" xml:space="preserve">
+    <value>Google Translator :</value>
+  </data>
+  <data name="CheckResult" xml:space="preserve">
+    <value>Check conversion results</value>
+  </data>
+  <data name="FileSave1" xml:space="preserve">
+    <value>Encrypting and saving files</value>
+  </data>
+  <data name="FileSave2" xml:space="preserve">
+    <value>Decrypt and store encrypted files</value>
+  </data>
+  <data name="FileTitle" xml:space="preserve">
+    <value>File encryption</value>
+  </data>
+  <data name="Result_File" xml:space="preserve">
+    <value>result : </value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Load a file</value>
+  </data>
+  <data name="TextTitle" xml:space="preserve">
+    <value>Text encryption</value>
+  </data>
+  <data name="InputIV_8_x" xml:space="preserve">
+    <value>IV (8) : </value>
+  </data>
+  <data name="InputKey_16_24_32_x" xml:space="preserve">
+    <value>Input Key : 
+(16,24,32)</value>
+  </data>
+  <data name="InputKey_16_x" xml:space="preserve">
+    <value>Input Key : 
+(16)</value>
+  </data>
+  <data name="InputKey_1_56_x" xml:space="preserve">
+    <value>Input Key : 
+(1-56)</value>
+  </data>
+  <data name="Advice_SteganographyInfo" xml:space="preserve">
+    <value>It is a technique to transmit the information to be transmitted to the other side while being hidden so that it can not be detected by a human such as image, audio, and the like. While existing encryption methods encrypt messages to protect information, steganography is a security technology that conceals secret information on the medium and hides the information itself.</value>
+  </data>
+  <data name="Advice_SteganographyType" xml:space="preserve">
+    <value>Steganography :</value>
+  </data>
+  <data name="Advice_Steganography_Info" xml:space="preserve">
+    <value>Steganography</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="InputKey_AES_16_24_32" xml:space="preserve">
+    <value>Input Key (AES Type (16, 24, 32))</value>
+  </data>
+  <data name="MenuBar_SteganographyEncryption" xml:space="preserve">
+    <value>Steganography Encryption</value>
+  </data>
+  <data name="ModeName_Steganography" xml:space="preserve">
+    <value>Steganography</value>
+  </data>
+</root>
